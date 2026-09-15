@@ -2,25 +2,22 @@
 # Environment: conda env `ab_testing_playbook`, Python 3.13
 # Install into that env with:  pip install -r requirements.txt
 #
-# INITIAL DRAFT — nothing here is installed yet. Per our agreed approach,
-# packages get installed and version-pinned (like sibling projects'
-# requirements.txt) as each module actually needs them, not all upfront.
-# This list is a starting guess at what the early modules will need; expect
-# it to grow/change as we go.
+# Packages get installed and version-pinned as each module actually needs
+# them, not all upfront (per our agreed approach) — installed versions below
+# are pinned to what was actually tested; everything after that is still a
+# draft guess for later modules.
 
-# --- Running the notebooks ---
-jupyterlab            # `jupyter lab` to open the notebooks in a browser
-ipykernel             # kernel registration for the notebooks
+# --- Installed for Module 1 (Foundations) ---
+numpy==2.5.3
+pandas==3.0.5           # NOTE: pandas 3.x — watch for compatibility issues if/when
+                         # seaborn is added later (The Seaborn Portfolio project hit
+                         # a seaborn 0.13.2 / pandas 3.x rendering bug on faceted plots;
+                         # unconfirmed whether it recurs here, flagging pre-emptively)
+ipykernel==7.3.0         # kernel registration for VS Code / Jupyter notebook execution
 
-# --- Core data manipulation ---
-pandas
-numpy
-
-# --- Statistics (Modules 3, 5, 6, 8: significance tests, power/sample size,
-#     sequential testing, diff-in-differences) ---
-scipy
-statsmodels
-
-# --- Visualization (funnels, distributions, experiment result charts) ---
-matplotlib
-seaborn
+# --- Draft: expected for later modules, not installed yet ---
+# scipy, statsmodels     — Modules 3, 5, 6, 8: significance tests, power/sample
+#                          size, sequential testing, diff-in-differences
+# matplotlib, seaborn    — funnels, distributions, experiment result charts
+# jupyterlab             — only if you want browser-based Jupyter instead of the
+#                          VS Code notebook UI; not installed since VS Code covers it
