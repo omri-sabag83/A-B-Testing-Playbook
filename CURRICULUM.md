@@ -23,14 +23,14 @@ module just covers the concept.
 
 ## Progress
 
-`🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜` **10% complete (1/10 modules)**
+`🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜` **20% complete (2/10 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
 | # | Module | Status | Completed On |
 |---|--------|--------|---------------|
 | 1 | Foundations: Causal Inference & When to Test | 🟩 Completed | 2026-09-15 |
-| 2 | B2C Product Metrics | ⬜ Not started | — |
+| 2 | B2C Product Metrics | 🟩 Completed | 2026-09-15 |
 | 3 | Statistical Foundations: Significance, CIs, Power & Sample Size | ⬜ Not started | — |
 | 4 | Experiment Design: Hypotheses, Randomization & Guardrail Metrics | ⬜ Not started | — |
 | 5 | Multiple Looks: Peeking, Multiple Testing & Stopping Rules | ⬜ Not started | — |
@@ -56,8 +56,10 @@ Each module has:
 - **Resources** — optional external reading/viewing, time-boxed and kept
   tight on purpose; a "must-read before this module" is flagged explicitly
   when it's worth it, and skipped when the in-module content is enough
-- **Exercise type** — the kind of hands-on work that will anchor the module
-  once we scope actual exercises (format still open — see bottom of doc)
+- **Exercise type** — the kind of exercise that anchors the module. Resolved
+  2026-09-15: exercises (case-based *and* computational alike) are delivered
+  fully worked and explained by Claude, for Omri to read/review — not blank
+  cells for Omri to write and run himself
 - **Interview angle** — how this tends to get probed in interviews
 
 Modules are ordered so each one only depends on what came before it —
@@ -139,8 +141,12 @@ who don't stick. A single top-line "conversion" number would have hidden
 this entirely — you need the funnel decomposed to see it.
 
 **Resources**
-- Search: *"North Star Metric" framework* (widely covered by Amplitude,
-  Mixpanel, and Reforge write-ups; ~15 min, any one of them gives the idea).
+- [What Is a Retention Curve: Complete Definition & Examples](https://amplitude.com/explore/analytics/retention-curve)
+  (Amplitude, ~10 min) — covers the four common curve shapes (declining,
+  flat-ish, flat, "smile"), which this module's demo reproduces.
+- [Every Product Needs a North Star Metric](https://amplitude.com/blog/product-north-star-metric)
+  (Amplitude, ~10 min) — the leading- vs. lagging-indicator framing directly
+  extends this module's proxy-metric risk point.
 
 **Exercise type:** applied — build funnel and retention analyses on a public
 or simulated B2C dataset.
@@ -482,6 +488,9 @@ the E##-style exercise format already used elsewhere.
 
 - ~~**Public vs. private:**~~ resolved — repo is private for now
   (`A-B-Testing-Playbook`), can revisit going public later.
+- ~~**Exercise write style:**~~ resolved 2026-09-15 — exercises (including
+  computational ones in Modules 3/5/8) are fully worked and explained by
+  Claude, for review, not blank cells for Omri to write/run himself.
 - **Format of exercises:** module-by-module short drills, or a smaller number
   of larger simulated-company case studies that each touch multiple modules?
 - **Pacing:** work through modules roughly in order, or jump around based on
