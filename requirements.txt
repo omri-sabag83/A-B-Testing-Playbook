@@ -1,0 +1,26 @@
+# A/B Testing Playbook — dependencies
+# Environment: conda env `ab_testing_playbook`, Python 3.13
+# Install into that env with:  pip install -r requirements.txt
+#
+# INITIAL DRAFT — nothing here is installed yet. Per our agreed approach,
+# packages get installed and version-pinned (like sibling projects'
+# requirements.txt) as each module actually needs them, not all upfront.
+# This list is a starting guess at what the early modules will need; expect
+# it to grow/change as we go.
+
+# --- Running the notebooks ---
+jupyterlab            # `jupyter lab` to open the notebooks in a browser
+ipykernel             # kernel registration for the notebooks
+
+# --- Core data manipulation ---
+pandas
+numpy
+
+# --- Statistics (Modules 3, 5, 6, 8: significance tests, power/sample size,
+#     sequential testing, diff-in-differences) ---
+scipy
+statsmodels
+
+# --- Visualization (funnels, distributions, experiment result charts) ---
+matplotlib
+seaborn
