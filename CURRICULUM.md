@@ -23,13 +23,13 @@ module just covers the concept.
 
 ## Progress
 
-`⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜` **0% complete (0/10 modules)**
+`🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜` **10% complete (1/10 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
 | # | Module | Status | Completed On |
 |---|--------|--------|---------------|
-| 1 | Foundations: Causal Inference & When to Test | ⬜ Not started | — |
+| 1 | Foundations: Causal Inference & When to Test | 🟩 Completed | 2026-09-15 |
 | 2 | B2C Product Metrics | ⬜ Not started | — |
 | 3 | Statistical Foundations: Significance, CIs, Power & Sample Size | ⬜ Not started | — |
 | 4 | Experiment Design: Hypotheses, Randomization & Guardrail Metrics | ⬜ Not started | — |
@@ -72,8 +72,9 @@ we go.
 ## <u>Module 1 — Foundations: Causal Inference & When to Test</u>
 
 **Concepts**
-- Correlation vs. causation, and why RCTs are the gold standard for causal
-  claims
+- Correlation vs. causation, and why RCTs (Randomized Controlled Trials —
+  the formal name for what a product team calls an "A/B test") are the
+  gold standard for causal claims
 - The counterfactual framing: what would have happened without the change
 - When A/B testing is the right tool vs. when it isn't (low traffic, ethical
   constraints, network effects, one-time launches, infrastructure changes)
@@ -97,8 +98,13 @@ they were offered, so any retention gap is attributable to the prompt itself.
 **Resources**
 - *Trustworthy Online Controlled Experiments* — Kohavi, Tang, Xu (book).
   Chapter 1 only (~20 min) — the clearest short framing of why controlled
-  experiments beat observational analysis. This book is the spine resource
-  for this whole program; we'll come back to specific chapters throughout.
+  experiments beat observational analysis. Free official PDF:
+  [Chapter 1](https://experimentguide.com/wp-content/uploads/TrustworthyOnlineControlledExperiments_PracticalGuideToABTesting_Chapter1.pdf)
+  via [experimentguide.com](https://experimentguide.com/), the book's
+  official companion site (verified — also has translated versions of Ch. 1
+  and Kohavi's own FAQ/bibliography). This book is the spine resource for
+  this whole program; later modules cite specific chapters, which need the
+  full book (Kindle/paperback links also on the companion site).
 
 **Exercise type:** short case-based judgment calls ("would you A/B test
 this, and why/why not") rather than computation.
@@ -112,8 +118,8 @@ A/B test?" — extremely common opener.
 
 **Concepts**
 - Funnel metrics (conversion, activation, drop-off) and how to decompose them
-- Engagement and retention metrics (DAU/MAU, retention curves, cohort
-  analysis)
+- Engagement and retention metrics (DAU/MAU — Daily/Monthly Active Users,
+  retention curves, cohort analysis)
 - Revenue/monetization metrics and their relationship to engagement
 - Leading (proxy) vs. lagging (true north-star) metrics, and the risk of
   optimizing a proxy that diverges from what actually matters
@@ -148,7 +154,7 @@ product-sense questions that blend into experimentation questions.
 
 **Concepts**
 - Hypothesis testing mechanics: null/alternative, p-values, significance
-  level, confidence intervals
+  level, confidence intervals (CI)
 - Type I vs. Type II error, and the tradeoff between them
 - Statistical power, and what drives it (effect size, sample size, variance,
   alpha)
@@ -243,8 +249,9 @@ heavily on design rigor, not just stats.
 - The "peeking" problem — why checking significance repeatedly over time
   inflates the false-positive rate
 - The same phenomenon along a different axis: multiple testing across many
-  metrics or segments (Bonferroni, FDR correction) — it's the same
-  "repeated looks" problem, just spatial instead of temporal
+  metrics or segments (Bonferroni, FDR — False Discovery Rate —
+  correction) — it's the same "repeated looks" problem, just spatial
+  instead of temporal
 - Sequential testing and always-valid p-values as a principled fix
 - Stopping rules and minimum runtime, and why "stop as soon as it's
   significant" is wrong
