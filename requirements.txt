@@ -18,10 +18,13 @@ ipykernel==7.3.0         # kernel registration for VS Code / Jupyter notebook ex
 # --- Installed for Module 2 (B2C Product Metrics) ---
 matplotlib==3.11.2      # funnel bar chart, cohort retention-curve chart
 
+# --- Installed for Module 3 (Statistical Foundations) ---
+scipy==1.18.1            # stats.norm, ttest_ind, chi2_contingency — power/sample-size
+                         # math, z-test, t-test, chi-square test
+
 # --- Draft: expected for later modules, not installed yet ---
-# scipy, statsmodels     — Modules 3, 5, 6, 8: significance tests, power/sample
-#                          size, sequential testing, diff-in-differences
-# seaborn                — not needed so far; matplotlib has covered Module 2's
-#                          charts, add only if a later module's chart needs it
-# jupyterlab             — only if you want browser-based Jupyter instead of the
-#                          VS Code notebook UI; not installed since VS Code covers it
+# statsmodels             — Modules 5, 6, 8: sequential testing, diff-in-differences
+# seaborn                 — not needed so far; matplotlib has covered every chart
+#                           so far, add only if a later module's chart needs it
+# jupyterlab              — only if you want browser-based Jupyter instead of the
+#                           VS Code notebook UI; not installed since VS Code covers it

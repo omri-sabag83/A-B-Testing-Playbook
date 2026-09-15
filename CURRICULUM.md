@@ -23,7 +23,7 @@ module just covers the concept.
 
 ## Progress
 
-`🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜` **20% complete (2/10 modules)**
+`🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜` **30% complete (3/10 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -31,7 +31,7 @@ module just covers the concept.
 |---|--------|--------|---------------|
 | 1 | Foundations: Causal Inference & When to Test | 🟩 Completed | 2026-09-15 |
 | 2 | B2C Product Metrics | 🟩 Completed | 2026-09-15 |
-| 3 | Statistical Foundations: Significance, CIs, Power & Sample Size | ⬜ Not started | — |
+| 3 | Statistical Foundations: Significance, CIs, Power & Sample Size | 🟩 Completed | 2026-09-15 |
 | 4 | Experiment Design: Hypotheses, Randomization & Guardrail Metrics | ⬜ Not started | — |
 | 5 | Multiple Looks: Peeking, Multiple Testing & Stopping Rules | ⬜ Not started | — |
 | 6 | Analyzing & Interpreting Results | ⬜ Not started | — |
@@ -187,9 +187,10 @@ Python as this module's exercise so you get the exact number, not just the
 intuition.
 
 **Resources**
-- Evan Miller's sample size calculator (search: *"Evan Miller sample size
-  calculator"*) — interactive, ~10 min to play with and build intuition for
-  how effect size and baseline rate drive required sample size.
+- [Evan Miller's Sample Size Calculator](https://www.evanmiller.org/ab-testing/sample-size.html)
+  (verified, interactive, ~10 min) — play with it to build intuition for how
+  effect size and baseline rate drive required sample size, before this
+  module builds the same calculation from scratch.
 - *Trustworthy Online Controlled Experiments* — Kohavi, Tang, Xu, Ch. 3
   ("Statistical Fundamentals for A/B testing") (~30 min).
 
