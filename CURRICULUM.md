@@ -23,7 +23,7 @@ module just covers the concept.
 
 ## Progress
 
-`🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜` **40% complete (4/10 modules)**
+`🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜` **50% complete (5/10 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -33,7 +33,7 @@ module just covers the concept.
 | 2 | B2C Product Metrics | 🟩 Completed | 2026-09-15 |
 | 3 | Statistical Foundations: Significance, CIs, Power & Sample Size | 🟩 Completed | 2026-09-15 |
 | 4 | Experiment Design: Hypotheses, Randomization & Guardrail Metrics | 🟩 Completed | 2026-09-16 |
-| 5 | Multiple Looks: Peeking, Multiple Testing & Stopping Rules | ⬜ Not started | — |
+| 5 | Multiple Looks: Peeking, Multiple Testing & Stopping Rules | 🟩 Completed | 2026-09-16 |
 | 6 | Analyzing & Interpreting Results | ⬜ Not started | — |
 | 7 | Common Experimentation Pitfalls | ⬜ Not started | — |
 | 8 | Beyond Simple A/B: Quasi-Experiments | ⬜ Not started | — |
@@ -286,11 +286,17 @@ Optimizely's and other platforms' move to sequential/always-valid testing
 look every day.
 
 **Resources**
-- Evan Miller — *"How Not to Run an A/B Test"* (search title; ~15 min) — the
-  canonical explainer of the peeking problem.
-- Johari, Pekelis & Walsh — *"Peeking at A/B Tests"* (KDD 2017 paper; search
-  title) — the rigorous version, worth skimming even if you don't read every
-  proof (~20 min skim).
+- [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)
+  — Evan Miller (verified, ~15 min). Cites a specific number this module's
+  simulation reproduces: continuously monitoring a test and stopping the
+  moment it crosses 5% significance inflates the true false-positive rate to
+  **26.1%** — over 5x the nominal rate.
+- *Peeking at A/B Tests: Why It Matters, and What to Do About It* — Johari,
+  Koomen, Pekelis & Walsh (KDD 2017, verified real via search; ACM's page
+  blocks automated fetches the same way Medium did, so no direct link —
+  search the title, it's the paper behind Optimizely's "always valid
+  p-values," and turns up freely via Google Scholar). The rigorous version;
+  worth skimming even if you don't read every proof (~20 min skim).
 
 **Exercise type:** simulation — show empirically (via repeated simulation)
 how peeking inflates false-positive rate, then implement a simple

@@ -26,8 +26,14 @@ scipy==1.18.1            # stats.norm, ttest_ind, chi2_contingency — power/sam
 # hashlib is Python's standard library (bucketing); chi-square reused scipy
 # from Module 3. First module needing nothing new.
 
+# --- Module 5 (Multiple Looks): no new installs ---
+# peeking simulation, Bonferroni, and Benjamini-Hochberg all built from
+# scratch on numpy/scipy already installed. Second module needing nothing new.
+
 # --- Draft: expected for later modules, not installed yet ---
-# statsmodels             — Modules 5, 6, 8: sequential testing, diff-in-differences
+# statsmodels             — Modules 6, 8: possibly for diff-in-differences;
+#                           not needed so far even for sequential testing
+#                           (Module 5 built Bonferroni/BH from scratch instead)
 # seaborn                 — not needed so far; matplotlib has covered every chart
 #                           so far, add only if a later module's chart needs it
 # jupyterlab              — only if you want browser-based Jupyter instead of the
