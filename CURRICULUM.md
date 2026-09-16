@@ -23,7 +23,7 @@ module just covers the concept.
 
 ## Progress
 
-`🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜` **50% complete (5/10 modules)**
+`🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60% complete (6/10 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -34,6 +34,7 @@ module just covers the concept.
 | 3 | Statistical Foundations: Significance, CIs, Power & Sample Size | 🟩 Completed | 2026-09-15 |
 | 4 | Experiment Design: Hypotheses, Randomization & Guardrail Metrics | 🟩 Completed | 2026-09-16 |
 | 5 | Multiple Looks: Peeking, Multiple Testing & Stopping Rules | 🟩 Completed | 2026-09-16 |
+| 6 | Analyzing & Interpreting Results | 🟩 Completed | 2026-09-16 |
 | 6 | Analyzing & Interpreting Results | ⬜ Not started | — |
 | 7 | Common Experimentation Pitfalls | ⬜ Not started | — |
 | 8 | Beyond Simple A/B: Quasi-Experiments | ⬜ Not started | — |
@@ -390,6 +391,9 @@ misleading" / pitfall-recognition questions.
 ## <u>Module 8 — Beyond Simple A/B: Quasi-Experiments</u>
 
 **Concepts**
+- Cluster randomization, properly this time — a worked example and its real
+  cost (a shrunken effective sample size from within-cluster correlation),
+  closing the loop on Module 4/6's brief, example-free mentions
 - Difference-in-differences
 - Switchback tests (for marketplace/network settings)
 - Geo experiments / holdout regions

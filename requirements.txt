@@ -30,8 +30,13 @@ scipy==1.18.1            # stats.norm, ttest_ind, chi2_contingency — power/sam
 # peeking simulation, Bonferroni, and Benjamini-Hochberg all built from
 # scratch on numpy/scipy already installed. Second module needing nothing new.
 
+# --- Module 6 (Analyzing & Interpreting Results): no new installs ---
+# stat-vs-practical significance, segment diagnosis, and the interference
+# simulation all built from scratch on numpy/scipy/matplotlib already
+# installed. Third module in a row needing nothing new.
+
 # --- Draft: expected for later modules, not installed yet ---
-# statsmodels             — Modules 6, 8: possibly for diff-in-differences;
+# statsmodels             — Module 8: possibly for diff-in-differences;
 #                           not needed so far even for sequential testing
 #                           (Module 5 built Bonferroni/BH from scratch instead)
 # seaborn                 — not needed so far; matplotlib has covered every chart
