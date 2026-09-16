@@ -22,6 +22,10 @@ matplotlib==3.11.2      # funnel bar chart, cohort retention-curve chart
 scipy==1.18.1            # stats.norm, ttest_ind, chi2_contingency — power/sample-size
                          # math, z-test, t-test, chi-square test
 
+# --- Module 4 (Experiment Design): no new installs ---
+# hashlib is Python's standard library (bucketing); chi-square reused scipy
+# from Module 3. First module needing nothing new.
+
 # --- Draft: expected for later modules, not installed yet ---
 # statsmodels             — Modules 5, 6, 8: sequential testing, diff-in-differences
 # seaborn                 — not needed so far; matplotlib has covered every chart
