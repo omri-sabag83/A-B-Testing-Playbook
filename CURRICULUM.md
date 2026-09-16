@@ -23,7 +23,7 @@ module just covers the concept.
 
 ## Progress
 
-`🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜` **30% complete (3/10 modules)**
+`🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜` **40% complete (4/10 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -32,7 +32,7 @@ module just covers the concept.
 | 1 | Foundations: Causal Inference & When to Test | 🟩 Completed | 2026-09-15 |
 | 2 | B2C Product Metrics | 🟩 Completed | 2026-09-15 |
 | 3 | Statistical Foundations: Significance, CIs, Power & Sample Size | 🟩 Completed | 2026-09-15 |
-| 4 | Experiment Design: Hypotheses, Randomization & Guardrail Metrics | ⬜ Not started | — |
+| 4 | Experiment Design: Hypotheses, Randomization & Guardrail Metrics | 🟩 Completed | 2026-09-16 |
 | 5 | Multiple Looks: Peeking, Multiple Testing & Stopping Rules | ⬜ Not started | — |
 | 6 | Analyzing & Interpreting Results | ⬜ Not started | — |
 | 7 | Common Experimentation Pitfalls | ⬜ Not started | — |
@@ -238,8 +238,12 @@ The OEC combines these so a win on the primary metric that tanks a guardrail
 doesn't get shipped by accident.
 
 **Resources**
-- Search: *"Experiments at Airbnb" Jan Overgoor* (~15 min blog post) — good
-  concrete picture of primary/guardrail metrics and OEC design in practice.
+- [Experiments at Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
+  — Jan Overgoor, Airbnb Tech Blog (~15 min). Verified real and canonical;
+  Medium blocks automated fetches with a 403, so it couldn't be read
+  directly — may prompt for a free Medium sign-in. Covers stopping tests
+  too early, marketplace-level bias, and A/A tests — directly relevant to
+  this module's SRM section.
 
 **Exercise type:** design critique exercises — given a proposed test, find
 the design flaws (wrong randomization unit, missing guardrails, SRM risk)
