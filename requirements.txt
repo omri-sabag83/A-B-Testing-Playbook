@@ -40,10 +40,13 @@ scipy==1.18.1            # stats.norm, ttest_ind, chi2_contingency — power/sam
 # numpy/scipy/matplotlib already installed. Fourth module in a row needing
 # nothing new.
 
-# --- Draft: expected for later modules, not installed yet ---
-# statsmodels             — Module 8: possibly for diff-in-differences;
-#                           not needed so far even for sequential testing
-#                           (Module 5 built Bonferroni/BH from scratch instead)
+# --- Module 8 (Beyond Simple A/B: Quasi-Experiments): no new installs ---
+# cluster randomization, diff-in-differences, switchback, and regression
+# discontinuity all built from scratch on numpy/scipy/matplotlib already
+# installed. Fifth module in a row needing nothing new -- statsmodels never
+# ended up necessary for anything in this program.
+
+# --- Draft: still not installed ---
 # seaborn                 — not needed so far; matplotlib has covered every chart
 #                           so far, add only if a later module's chart needs it
 # jupyterlab              — only if you want browser-based Jupyter instead of the
