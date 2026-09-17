@@ -46,6 +46,11 @@ scipy==1.18.1            # stats.norm, ttest_ind, chi2_contingency — power/sam
 # installed. Fifth module in a row needing nothing new -- statsmodels never
 # ended up necessary for anything in this program.
 
+# --- Module 9 (Communicating Results): no new installs ---
+# reused Module 6's exact seeds/results rather than generating anything new;
+# only chart is the dot-and-whisker summary, matplotlib already installed.
+# Sixth module in a row needing nothing new.
+
 # --- Draft: still not installed ---
 # seaborn                 — not needed so far; matplotlib has covered every chart
 #                           so far, add only if a later module's chart needs it
