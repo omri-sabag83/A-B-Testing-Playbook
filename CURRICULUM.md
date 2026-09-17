@@ -23,7 +23,7 @@ module just covers the concept.
 
 ## Progress
 
-`🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜` **70% complete (7/10 modules)**
+`🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜` **80% complete (8/10 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -36,6 +36,7 @@ module just covers the concept.
 | 5 | Multiple Looks: Peeking, Multiple Testing & Stopping Rules | 🟩 Completed | 2026-09-16 |
 | 6 | Analyzing & Interpreting Results | 🟩 Completed | 2026-09-16 |
 | 7 | Common Experimentation Pitfalls | 🟩 Completed | 2026-09-17 |
+| 8 | Beyond Simple A/B: Quasi-Experiments | 🟩 Completed | 2026-09-17 |
 | 8 | Beyond Simple A/B: Quasi-Experiments | ⬜ Not started | — |
 | 9 | Communicating Results to a Product/Business Audience | ⬜ Not started | — |
 | 10 | Interview Prep & Portfolio Application | ⬜ Not started | — |
@@ -418,9 +419,9 @@ trend in treatment geos) minus (post-change trend in control geos), netting
 out any nationwide trend that would have happened anyway.
 
 **Resources**
-- Search: *"difference-in-differences" explainer* (many solid short
-  write-ups exist; ~15 min for the intuition, skip the econometrics-heavy
-  ones).
+- [Difference-in-Difference Estimation](https://www.publichealth.columbia.edu/research/population-health-methods/difference-difference-estimation)
+  — Columbia Mailman School of Public Health (verified, ~15-25 min,
+  includes parallel-trends diagrams).
 
 **Exercise type:** conceptual + light computation (diff-in-diff on a small
 dataset).
