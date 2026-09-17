@@ -23,7 +23,7 @@ module just covers the concept.
 
 ## Progress
 
-`🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜` **80% complete (8/10 modules)**
+`🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜` **90% complete (9/10 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -37,8 +37,7 @@ module just covers the concept.
 | 6 | Analyzing & Interpreting Results | 🟩 Completed | 2026-09-16 |
 | 7 | Common Experimentation Pitfalls | 🟩 Completed | 2026-09-17 |
 | 8 | Beyond Simple A/B: Quasi-Experiments | 🟩 Completed | 2026-09-17 |
-| 8 | Beyond Simple A/B: Quasi-Experiments | ⬜ Not started | — |
-| 9 | Communicating Results to a Product/Business Audience | ⬜ Not started | — |
+| 9 | Communicating Results to a Product/Business Audience | 🟩 Completed | 2026-09-17 |
 | 10 | Interview Prep & Portfolio Application | ⬜ Not started | — |
 
 *This table and the bar above get updated as we complete modules — I'll keep
