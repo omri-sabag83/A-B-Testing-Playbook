@@ -23,7 +23,7 @@ module just covers the concept.
 
 ## Progress
 
-`🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60% complete (6/10 modules)**
+`🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜` **70% complete (7/10 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -35,8 +35,7 @@ module just covers the concept.
 | 4 | Experiment Design: Hypotheses, Randomization & Guardrail Metrics | 🟩 Completed | 2026-09-16 |
 | 5 | Multiple Looks: Peeking, Multiple Testing & Stopping Rules | 🟩 Completed | 2026-09-16 |
 | 6 | Analyzing & Interpreting Results | 🟩 Completed | 2026-09-16 |
-| 6 | Analyzing & Interpreting Results | ⬜ Not started | — |
-| 7 | Common Experimentation Pitfalls | ⬜ Not started | — |
+| 7 | Common Experimentation Pitfalls | 🟩 Completed | 2026-09-17 |
 | 8 | Beyond Simple A/B: Quasi-Experiments | ⬜ Not started | — |
 | 9 | Communicating Results to a Product/Business Audience | ⬜ Not started | — |
 | 10 | Interview Prep & Portfolio Application | ⬜ Not started | — |
@@ -375,9 +374,12 @@ check and segment-consistency checks matter: the aggregate number alone would
 have led to killing a feature that was actually working.
 
 **Resources**
-- Kohavi, Deng, Frasca, Walker, Xu, Pohlmann — *"Seven Rules of Thumb for
-  Web Site Experimenters"* (KDD 2014 paper; search title, ~20 min) — a
-  compact list of real pitfalls from real companies.
+- [Seven Rules of Thumb for Web Site Experimenters](https://exp-platform.com/rules-of-thumb/)
+  — Kohavi, Deng, Longbotham, Xu (KDD 2014; verified, free PDF on Kohavi's
+  own site, ~20 min) — a compact list of real pitfalls from real companies
+  (Amazon, Booking.com, LinkedIn, Microsoft). Author list corrected here —
+  an earlier draft of this curriculum had it wrong (mixed up with a
+  different, related 2013 paper).
 
 **Exercise type:** case-study critique — given a described (real or
 realistic) experimentation failure, diagnose which pitfall it is and how it

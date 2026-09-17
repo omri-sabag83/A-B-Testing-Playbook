@@ -35,6 +35,11 @@ scipy==1.18.1            # stats.norm, ttest_ind, chi2_contingency — power/sam
 # simulation all built from scratch on numpy/scipy/matplotlib already
 # installed. Third module in a row needing nothing new.
 
+# --- Module 7 (Common Experimentation Pitfalls): no new installs ---
+# Simpson's paradox and novelty/primacy simulations built from scratch on
+# numpy/scipy/matplotlib already installed. Fourth module in a row needing
+# nothing new.
+
 # --- Draft: expected for later modules, not installed yet ---
 # statsmodels             — Module 8: possibly for diff-in-differences;
 #                           not needed so far even for sequential testing
