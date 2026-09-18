@@ -23,7 +23,7 @@ module just covers the concept.
 
 ## Progress
 
-`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜` **92% complete (11/12 modules) — original 10 done, 2-module extension in progress**
+`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100% complete (12/12 modules) — original 10 done, 2-module extension complete**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -40,7 +40,7 @@ module just covers the concept.
 | 9 | Communicating Results to a Product/Business Audience | 🟩 Completed | 2026-09-17 |
 | 10 | Interview Prep & Portfolio Application | 🟩 Completed | 2026-09-18 |
 | 11 | Bayesian A/B Testing | 🟩 Completed | 2026-09-18 |
-| 12 | Multi-Armed Bandits | ⬜ Not started | — |
+| 12 | Multi-Armed Bandits | 🟩 Completed | 2026-09-18 |
 
 *This table and the bar above get updated as we complete modules — I'll keep
 both in sync.*
@@ -575,7 +575,11 @@ confidently each design lets you state the true ranking at the end (the
 fixed split should win) — the actual real tradeoff, not a one-sided pitch
 for bandits.
 
-**Resources** — to be found when this module is built.
+**Resources**
+- [Multi-arm bandit testing: when to use it (and when not to)](https://www.growthbook.io/blog/guide-to-multi-arm-bandits-what-is-it-and-why-you-probably-shouldnt-use-it)
+  — Graham McNicoll, GrowthBook Blog (verified, ~10 min).
+- [Thompson Sampling](https://towardsdatascience.com/thompson-sampling-fc28817eacb8/)
+  — Steve Roberts, Towards Data Science (verified, ~8 min).
 
 **Exercise type:** computational — implement epsilon-greedy and Thompson
 Sampling from scratch, compare cumulative reward vs. a fixed split.

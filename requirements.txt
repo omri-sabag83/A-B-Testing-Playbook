@@ -56,7 +56,16 @@ scipy==1.18.1            # stats.norm, ttest_ind, chi2_contingency — power/sam
 # (sample-size formula, z-test, CI, dot-and-whisker chart) on
 # numpy/scipy/matplotlib. Seventh and final module needing nothing new.
 
+# --- Module 11 (Bayesian A/B Testing): no new installs ---
+# Beta-Binomial posteriors, Monte Carlo simulation, and the posterior chart
+# all built on numpy/scipy/matplotlib already installed.
+
+# --- Module 12 (Multi-Armed Bandits): no new installs ---
+# epsilon-greedy and Thompson Sampling both built from scratch on
+# numpy/scipy/matplotlib already installed. Program complete, 9 of 12
+# modules in a row needing nothing new.
+
 # --- Never installed, program complete ---
-# seaborn      — matplotlib covered every chart across all 10 modules
+# seaborn      — matplotlib covered every chart across all 12 modules
 # statsmodels  — never ended up necessary; everything was built from scratch
 # jupyterlab   — VS Code's notebook UI covered this throughout
