@@ -23,7 +23,7 @@ module just covers the concept.
 
 ## Progress
 
-`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100% complete (12/12 modules) — original 10 done, 2-module extension complete**
+`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨` **92% complete (11/12 modules) — original 10 done, Module 12 built, pending review**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -40,7 +40,7 @@ module just covers the concept.
 | 9 | Communicating Results to a Product/Business Audience | 🟩 Completed | 2026-09-17 |
 | 10 | Interview Prep & Portfolio Application | 🟩 Completed | 2026-09-18 |
 | 11 | Bayesian A/B Testing | 🟩 Completed | 2026-09-18 |
-| 12 | Multi-Armed Bandits | 🟩 Completed | 2026-09-18 |
+| 12 | Multi-Armed Bandits | 🟨 In progress | — |
 
 *This table and the bar above get updated as we complete modules — I'll keep
 both in sync.*
