@@ -23,7 +23,7 @@ module just covers the concept.
 
 ## Progress
 
-`🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜` **90% complete (9/10 modules)**
+`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100% complete (10/10 modules) — done!**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -38,7 +38,7 @@ module just covers the concept.
 | 7 | Common Experimentation Pitfalls | 🟩 Completed | 2026-09-17 |
 | 8 | Beyond Simple A/B: Quasi-Experiments | 🟩 Completed | 2026-09-17 |
 | 9 | Communicating Results to a Product/Business Audience | 🟩 Completed | 2026-09-17 |
-| 10 | Interview Prep & Portfolio Application | ⬜ Not started | — |
+| 10 | Interview Prep & Portfolio Application | 🟩 Completed | 2026-09-18 |
 
 *This table and the bar above get updated as we complete modules — I'll keep
 both in sync.*
@@ -508,10 +508,10 @@ the E##-style exercise format already used elsewhere.
 - ~~**Exercise write style:**~~ resolved 2026-09-15 — exercises (including
   computational ones in Modules 3/5/8) are fully worked and explained by
   Claude, for review, not blank cells for Omri to write/run himself.
-- **Format of exercises:** module-by-module short drills, or a smaller number
-  of larger simulated-company case studies that each touch multiple modules?
-- **Pacing:** work through modules roughly in order, or jump around based on
-  what comes up in active interview prep?
+- ~~**Format of exercises:**~~ resolved by practice, 2026-09-18 — module-by-module
+  short drills, not larger cross-module case studies (Module 10's capstone
+  was the one deliberate exception, by design, as the closing synthesis).
+- ~~**Pacing:**~~ resolved by practice, 2026-09-18 — strictly in order,
+  Module 1 through Module 10, no jumping around.
 
-Not settled yet — flagging so we make the call explicitly rather than
-drifting into a default.
+All open questions resolved as of Module 10 (2026-09-18).

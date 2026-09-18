@@ -51,8 +51,12 @@ scipy==1.18.1            # stats.norm, ttest_ind, chi2_contingency — power/sam
 # only chart is the dot-and-whisker summary, matplotlib already installed.
 # Sixth module in a row needing nothing new.
 
-# --- Draft: still not installed ---
-# seaborn                 — not needed so far; matplotlib has covered every chart
-#                           so far, add only if a later module's chart needs it
-# jupyterlab              — only if you want browser-based Jupyter instead of the
-#                           VS Code notebook UI; not installed since VS Code covers it
+# --- Module 10 (Interview Prep & Portfolio): no new installs ---
+# the capstone case study reused every tool built across the program
+# (sample-size formula, z-test, CI, dot-and-whisker chart) on
+# numpy/scipy/matplotlib. Seventh and final module needing nothing new.
+
+# --- Never installed, program complete ---
+# seaborn      — matplotlib covered every chart across all 10 modules
+# statsmodels  — never ended up necessary; everything was built from scratch
+# jupyterlab   — VS Code's notebook UI covered this throughout
