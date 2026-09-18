@@ -23,7 +23,7 @@ module just covers the concept.
 
 ## Progress
 
-`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100% complete (10/10 modules) — done!**
+`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜` **92% complete (11/12 modules) — original 10 done, 2-module extension in progress**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -39,6 +39,8 @@ module just covers the concept.
 | 8 | Beyond Simple A/B: Quasi-Experiments | 🟩 Completed | 2026-09-17 |
 | 9 | Communicating Results to a Product/Business Audience | 🟩 Completed | 2026-09-17 |
 | 10 | Interview Prep & Portfolio Application | 🟩 Completed | 2026-09-18 |
+| 11 | Bayesian A/B Testing | 🟩 Completed | 2026-09-18 |
+| 12 | Multi-Armed Bandits | ⬜ Not started | — |
 
 *This table and the bar above get updated as we complete modules — I'll keep
 both in sync.*
@@ -498,6 +500,87 @@ portfolio piece — likely the meatiest deliverable, and a strong candidate for
 the E##-style exercise format already used elsewhere.
 
 **Interview angle:** this module *is* the interview angle.
+
+---
+
+## Extension: Modules 11-12 (added 2026-09-18)
+
+The original 10-module program (above) is complete. These two were added
+afterward, from an honest self-critique Omri asked for once the program
+was done — real gaps, not originally planned, added deliberately rather
+than folded into the "finished" 10.
+
+## <u>Module 11 — Bayesian A/B Testing</u>
+
+**Concepts**
+- Prior, likelihood, posterior — the Bayesian update, in plain terms
+- The Beta-Binomial conjugate model for conversion-rate tests — closed-form,
+  no heavy machinery needed
+- Probability that B beats A, and credible intervals — the Bayesian answers
+  to "is it significant" and "what's the CI"
+- Contrasting the same result under frequentist vs. Bayesian framing —
+  where they agree, where the interpretation genuinely differs
+
+**Why it matters**
+Frequentist and Bayesian are two different, both legitimate lenses on the
+same data. Knowing why "there's a 95% probability B is better" (Bayesian)
+is a different claim from "p = 0.05" (frequentist) — even though the
+numbers invite reading them as complements of each other, they're not — is
+a common interview differentiator, and Bayesian methods are used in real
+experimentation platforms.
+
+**Worked example**
+The same checkout-test numbers from Module 3, analyzed both ways: the
+frequentist z-test/CI (already built), and a Beta-Binomial Bayesian
+analysis on the identical data — probability B beats A, and a 95% credible
+interval — compared side by side.
+
+**Resources**
+- [Bayesian Statistics for A/B Testing Explained](https://www.growthbook.io/insights/bayesian-statistics)
+  — GrowthBook (verified, ~10-12 min, accessible).
+- [Formulas for Bayesian A/B Testing](https://www.evanmiller.org/bayesian-ab-testing.html)
+  — Evan Miller (verified, ~15-20 min, calculus-heavy derivations; the
+  author's own advice is to skip to the implementation section if that's
+  not your thing).
+
+**Exercise type:** computational — implement the Beta-Binomial update from
+scratch, compute probability-to-beat and a credible interval, contrast with
+the frequentist read on the same data.
+
+**Interview angle:** "explain Bayesian vs. frequentist A/B testing" / "what
+does '95% probability B is better' actually mean."
+
+---
+
+## <u>Module 12 — Multi-Armed Bandits</u>
+
+**Concepts**
+- The explore-exploit tradeoff
+- Epsilon-greedy, the simplest bandit algorithm
+- Thompson Sampling — using Module 11's Bayesian posterior to decide live
+  traffic allocation
+- When a bandit is the right call vs. a fixed-split A/B test, and the
+  causal-inference cost of choosing one
+
+**Why it matters**
+A real, commonly-asked alternative paradigm to fixed A/B testing, especially
+relevant for ranking/recommendation-heavy B2C contexts — and a natural
+showcase of Module 11's machinery actually being used for something.
+
+**Worked example**
+Three variants with different true conversion rates: a fixed 33/33/33
+split vs. a Thompson Sampling bandit, run over the same total traffic.
+Compare total conversions captured (the bandit should win) against how
+confidently each design lets you state the true ranking at the end (the
+fixed split should win) — the actual real tradeoff, not a one-sided pitch
+for bandits.
+
+**Resources** — to be found when this module is built.
+
+**Exercise type:** computational — implement epsilon-greedy and Thompson
+Sampling from scratch, compare cumulative reward vs. a fixed split.
+
+**Interview angle:** "when would you use a bandit instead of an A/B test."
 
 ---
 
