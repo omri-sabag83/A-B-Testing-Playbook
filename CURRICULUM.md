@@ -1,7 +1,6 @@
 # A/B Testing Playbook — Learning Program
 
-**Repo:** `github.com/omri-sabag83/A-B-Testing-Playbook` (private for now; the
-git remote will be wired up when you're ready to push).
+**Repo:** `github.com/omri-sabag83/A-B-Testing-Playbook` (public).
 
 **Goal:** build real working knowledge of experimentation as practiced at B2C
 product companies, deep enough to (a) design, run, and analyze A/B tests
@@ -42,9 +41,6 @@ module just covers the concept.
 | 11 | Bayesian A/B Testing | 🟩 Completed | 2026-09-18 |
 | 12 | Multi-Armed Bandits | 🟩 Completed | 2026-09-19 |
 
-*This table and the bar above get updated as we complete modules — I'll keep
-both in sync.*
-
 ---
 
 ## How this program works
@@ -58,18 +54,16 @@ Each module has:
 - **Resources** — optional external reading/viewing, time-boxed and kept
   tight on purpose; a "must-read before this module" is flagged explicitly
   when it's worth it, and skipped when the in-module content is enough
-- **Exercise type** — the kind of exercise that anchors the module. Resolved
-  2026-09-15: exercises (case-based *and* computational alike) are delivered
-  fully worked and explained by Claude, for Omri to read/review — not blank
-  cells for Omri to write and run himself
+- **Exercise type** — the kind of exercise that anchors the module,
+  case-based or computational
 - **Interview angle** — how this tends to get probed in interviews
 
 Modules are ordered so each one only depends on what came before it —
 statistics before design (design needs sizing math), design before
 monitoring/analysis, all of it before pitfalls (which assumes you already
 know what "doing it right" looks like), and interview prep last as the
-capstone. Still a starting map, not a contract — order and scope will flex as
-we go.
+capstone. Still a starting map, not a contract — order and scope may flex as
+the program develops.
 
 ---
 
@@ -442,7 +436,7 @@ you can't randomize."
   (directly using Modules 5 and 6)
 
 **Why it matters**
-This is the one area where your existing B2B background transfers most
+This is the one area where an existing B2B background transfers most
 directly — stakeholder communication is stakeholder communication. This
 module mainly adapts it to experimentation-specific framing.
 
@@ -506,8 +500,8 @@ the E##-style exercise format already used elsewhere.
 ## Extension: Modules 11-12 (added 2026-09-18)
 
 The original 10-module program (above) is complete. These two were added
-afterward, from an honest self-critique Omri asked for once the program
-was done — real gaps, not originally planned, added deliberately rather
+afterward, from an honest self-critique done once the program
+was complete — real gaps, not originally planned, added deliberately rather
 than folded into the "finished" 10.
 
 ## <u>Module 11 — Bayesian A/B Testing</u>
@@ -585,20 +579,3 @@ for bandits.
 Sampling from scratch, compare cumulative reward vs. a fixed split.
 
 **Interview angle:** "when would you use a bandit instead of an A/B test."
-
----
-
-## Open questions / decisions for as we go
-
-- ~~**Public vs. private:**~~ resolved — repo is private for now
-  (`A-B-Testing-Playbook`), can revisit going public later.
-- ~~**Exercise write style:**~~ resolved 2026-09-15 — exercises (including
-  computational ones in Modules 3/5/8) are fully worked and explained by
-  Claude, for review, not blank cells for Omri to write/run himself.
-- ~~**Format of exercises:**~~ resolved by practice, 2026-09-18 — module-by-module
-  short drills, not larger cross-module case studies (Module 10's capstone
-  was the one deliberate exception, by design, as the closing synthesis).
-- ~~**Pacing:**~~ resolved by practice, 2026-09-18 — strictly in order,
-  Module 1 through Module 10, no jumping around.
-
-All open questions resolved as of Module 10 (2026-09-18).
